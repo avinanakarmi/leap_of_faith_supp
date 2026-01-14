@@ -1,0 +1,41 @@
+﻿Drinking WaterWatch from the NJDEP was used to collect the data regarding test results shown in the dashboard. The data was filtered and averaged to match the local context before generating the visuals
+* https://www-dep.nj.gov/DEP_WaterWatch_public/ 
+The following sources were scraped to build the knowledge base of the Leap of FAIth system
+* https://www.epa.gov/ground-water-and-drinking-water/planning-and-conducting-lead-service-line-replacement 
+* https://www.fda.gov/food/buy-store-serve-safe-food/fda-regulates-safety-bottled-water-beverages-including-flavored-water-and-nutrient-added-water
+* https://www.cdc.gov/drinking-water/prevention/about-choosing-home-water-filters.html#cdc_prevention_pre-tips-for-choosing-a-filter 
+* https://www.cdc.gov/drinking-water/about/index.html#cdc_health_safety_special_topic_impacts-health-effects 
+* https://www.cdc.gov/drinking-water/about/about-water-disinfection-with-chlorine-and-chloramine.html 
+* https://www.epa.gov/dwreginfo/stage-1-and-stage-2-disinfectants-and-disinfection-byproducts-rules,         https://www.cdc.gov/drinking-water/about/how-to-read-drinking-water-quality-reports.html,
+* https://www.cdc.gov/drinking-water/causes/chemicals-that-can-contaminate-tap-water.html,
+* https://www.cdc.gov/drinking-water/prevention/about-choosing-home-water-filters.html, 
+* https://www.epa.gov/privatewells/potential-well-water-contaminants-and-their-impacts 
+* https://www.cdc.gov/drinking-water/prevention/about-choosing-home-water-filters.html 
+* https://www.cdc.gov/drinking-water/causes/germs-that-can-contaminate-tap-water.html 
+* https://www.epa.gov/dwreginfo/revised-total-coliform-rule-and-total-coliform-rule 
+* https://www.cdc.gov/drinking-water/about/how-water-treatment-works.html 
+* https://www.epa.gov/laws-regulations/summary-safe-drinking-water-act 
+* https://www.epa.gov/sdwa/and-polyfluoroalkyl-substances-pfas 
+* https://www.epa.gov/dwreginfo/surface-water-treatment-rules 
+* https://www.epa.gov/dwreginfo/chemical-contaminant-rules 
+* https://www.epa.gov/dwreginfo/chemical-contaminant-rules 
+* https://www.epa.gov/dwreginfo/public-notification-rule 
+* https://www.epa.gov/dwreginfo/variances-and-exemptions 
+* https://www.epa.gov/dwreginfo/lead-and-copper-rule 
+* https://www.epa.gov/ccr/ccr-information-consumers 
+* https://www.epa.gov/dwreginfo/radionuclides-rule 
+* https://www.epa.gov/dwreginfo/ground-water-rule 
+* https://www.epa.gov/ground-water-and-drinking-water/basic-information-about-lead-drinking-water 
+* https://www.epa.gov/ground-water-and-drinking-water/national-primary-drinking-water-regulations 
+* https://www.epa.gov/sourcewaterprotection/basic-information-about-source-water-protection 
+* https://www.epa.gov/sourcewaterprotection/how-can-you-help-protect-source-water 
+* https://www.epa.gov/ccl/basic-information-ccl-and-regulatory-determination 
+* https://www.epa.gov/dwucmr/fifth-unregulated-contaminant-monitoring-rule 
+* https://www.epa.gov/sdwa/drinking-water-health-advisories-has 
+* https://www.epa.gov/privatewells/protect-your-homes-water 
+* https://www.epa.gov/ccl/types-drinking-water-contaminants 
+* https://www.epa.gov/pfas/key-epa-actions-address-pfas 
+* https://www.epa.gov/ccl/regulatory-determination-4 
+* https://www.epa.gov/ccr/ccr-information-consumers 
+* https://www.epa.gov/ccl/definition-contaminant 
+* https://www.epa.gov/pfas/pfas-explained

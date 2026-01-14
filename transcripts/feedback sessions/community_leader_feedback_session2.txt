@@ -1,0 +1,496 @@
+<interviewer-2>  0:00  
+So in our last session, we took a look at the interface of the system. Yes, yeah, we could ask questions, provide feedback about the information that the LLM returned, which is all based on the articles that have been published by sources like BB, CDC and ndtp. So the information, the way it's returned and structured depends on how the user asks the query, and each time, the response is formatted in a different frame, which the user has control over, essentially meaning, if you're interested in knowing about lead and if you're interested more on the health impact, then you can instruct the LLM to focus on the health impacts of lead and format responses accordingly. We also briefly looked at how the information is presented to make it more easy to consume and accessible to people with diverse ways of learning and level of understanding based on our last session, we had a few feedback for the system itself, a few new features that we would like to integrate to make it more accessible. So a summary of the feedback says we wanted to include visuals in the slides so it's easier for people to understand the numbers and the data itself. We talked about introducing different personas, essentially people like character that explain the same concept in different ways, and also how we report uncertainty. So we talked about possibility of having uncertainty in the test results itself, the articles that were published could have more nuances, and how do we deal with that as an uncertainty? We also noticed that most of the texts that the LLM generated very were very verbose, could be verbose to different people, so we introduced a feature which allows voluntary access to the level of detail, so you can choose to have a summary, a little more explanation and a detailed explanation. There were a few other minor changes that we talked about. That is the frames previously were displayed as questions, as, what are you most interested in? But rather than question, it seemed easier to understand if the frames were more explicit, as in what it
+
+<interviewer-1>  2:19  
+is talking about. You might give some examples of water frames.
+
+community leader  2:23  
+So the health things and stuff, exactly, yes.
+
+<interviewer-2>  2:27  
+So rather than putting the frames as, what are the health impacts, or how did lead get into my water, we frame it as the health impacts. And then there's a question. So if the question is, why does my water look different than the frames? Instead of saying, what is the health impact, what are the policies or regulation, it just says the health impacts, the source of contamination, regulations and the historical aspect of things.
+
+<interviewer-1>  2:58  
+So if I may add, so frame is like, like, a perspective that you get about the same piece of information which can be framed differently. Like, if I care more about my you know what, what is my impact on health? That's one, if I care about more, knowing more about lead contamination, so that, that's one, so on and so forth. So it's kind of one question can be framed in six or seven different ways. So we will see when we show the interface, that's how it is configured. Since loading the
+
+<interviewer-2>  3:33  
+information or content was also taking some time, we talked about improving the loading experience by showing facts that is relevant to the query that the user asks, and providing feedback mechanism, rather than just having them to enter text, we could have quick feedback mechanisms like thumbs up and thumbs down. We also talked about improving the content coverage that is more detailed information about certain aspects, specifically the color, specific colors, what could cause it? And adding a new frame, which is [community-based org] perspective, the last point, [community-based org]s perspective is still in progress, not completely done yet. So time in mind, I have recordings of testing out the features that I talked about. So
+
+<interviewer-2>  4:37  
+for to introduce the visuals each frame focus on a specific kind of information, so we have visuals introduced accordingly.
+
+community leader  4:56  
+Okay, so, so that this is like the did you know is for
+
+<interviewer-2>  5:03  
+the loading? Yes, I'll discuss that a little later. Okay, but as far as the visuals, previously, we had all this information as text. So this is this num. These numbers that we're showing here are from the NJ, DPS, water, watch data set, really, yes, okay, so we have this average for a specific date, the different action levels that we were able to scrape from the EPA website, the MCL, MC, LG, which have different thresholds and different meaning, which is explained further. Love that, and then the policy that is in place to regulate the specific analyte, which is led in this case, along with the rest of the information. So previously, what we had was a screen full of content from one slide at a time, and then we had to slip and surely walk through it. So to make more information available in a smaller space and a summary of the information, rather than purpose explanation, we introduced a grid layout for the slides, showing four slides at a time, which summarizes the information, and also introduced made it available in a larger screen, which is essentially looking at it in detail. So if you see up here, there's control for the users to change the tone, which is the persona, and also the level of detail, which I'll demonstrate. That's something that might need
+
+community leader  6:42  
+work, which which one? Oh, I don't know. So we have five personas, and each one. How did you get this idea? You have good neighbors.
+
+community leader  7:01  
+The only thing can you go back to the grid?
+
+community leader  7:04  
+My only comment for the grid portion is maybe the headings need a little bit of separation from the bottom text. So even if it was like a little bit bigger or underlined, it's when I see it, I just see all of this, so you could separate those out. But I love it. I liked how it went from that. So I was like, Okay,
+
+<interviewer-1>  7:34  
+So [community-leader], you mean, like, Where does this lead come from? Why this matters? Yeah, we have to Yeah.
+
+community leader  7:52  
+I really love this top square one. It's so it's like, yeah, I've used the Water Watch website, yes,
+
+<interviewer-1>  8:04  
+thank you, because those are the, you know, we will compare essentially, when we set up the problem, that's how we set up, right? So we talked about Water Watch, you know, Ngdp, and some of the other resources that are available, and then we compare that
+
+community leader  8:21  
+just a question if you Who is your end user for this
+
+<interviewer-2>  8:28  
+so this interface is a community leaders and volunteers. But for the second phase of the project, we're making it accessible for the community members as well.
+
+community leader  8:39  
+So about the first car
+
+<interviewer-2>  8:41  
+that you see here. It is actually different for each frame. That's what this video contains.
+
+<interviewer-1>  8:46  
+Sorry for the frame names. My suggestion was that we have, like a short description is, is that something you did and not in this video? Or is so
+
+<interviewer-2>  9:00  
+I was able to introduce the titles. What I'm working on is having a tool tip for an explanation, but it was too long. I wasn't
+
+<interviewer-1>  9:08  
+able to summarize it. Yeah, but still. So [community-leader], what my suggestion was the I think some of the names, like safety and personal action and health and well being, are self explanatory, but protective measures or impact over time. Some, some of them might need a little bit of explanation. So my suggestion was we have that name and just like, maybe six words summary below what, what that frame is about, or like, six to eight words, which fits in one sentence. So that's what I tried that. But the I tried that, but it seemed very congested. Yeah, that's okay.
+
+<interviewer-1>  9:57  
+In a different frame the first do we have this, the slider that you showed. Do we have an example of what happens when you the level of detail?
+
+<interviewer-2>  10:07  
+Yeah, yeah. Okay, so in the previous frame, which was safety and personal action, it just showed the policies that are in place, what the recent reading was, and then health and well being. There's a summary of how it could impact your health, what the source of contamination could be, and the information displayed varies with the frame. So next we will look at the protective measures. The protective measures are essentially policies that were introduced to keep the contaminants within control, and what it looked like historically, to see if it has even helped over time. So the first slide shown for the protective measures and impact over time is similar, so there's just one of those frames are demonstrated.
+
+community leader  10:57  
+Okay, good. Do you have the protective measure slide in here the greatest
+
+<interviewer-2>  11:06  
+so detailed views switching across slides. There's also the infographics that we looked at last time, which is essentially that have been published by the sources that seem relevant to the content of the slide and with the protective measures, since we're talking about the policies that were introduced, the first slide here shows what the data looked like historically, with intervention points here showing when the rules were introduced. So apparently, the LTR revisions were introduced around December 21 or January 2022, and how the readings this
+
+<interviewer-1>  11:47  
+is this chart. Is not a custom chart, right? I'm this is a custom chart, right? That we generated? Yes, yes. So this is what we are generating with the existing data, yeah. So we collected
+
+<interviewer-2>  11:59  
+the data from ngdep, and then we plotted the points there. Collected the policies that were introduced and the dates in which they were introduced.
+
+<interviewer-1>  12:10  
+So essentially, [community-leader], the idea which we are playing with here is the modalities of information. How communication, right? So, what needs to be communicated visually? So if you were to translate this to words, that will be too long. So we are essentially compressing information, and we want to do it more systematically over a period of time. But for I mean, everything is kind of fine tuned towards this
+
+community leader  12:38  
+debt already went like, well, I want this for [city]. I want to prefer, yeah, charts and infographics, just because it just, you know, our people are reading as much as they should be, yes, yes, but even exposing them to something like this is beginning to normalize this kind of things, yeah.
+
+<interviewer-1>  12:59  
+Also the visual medium is language neutral, right? So it is everyone understands more universally accessible. So that's also another reason. But for further now, we are restricting ourselves to some aspects of the frames which we think would need, the vision we need visual communication, which you can agree or disagree with. But we are going with our instinct for now in the interest of time?
+
+community leader  13:21  
+Yeah, no, I think it's, I like I like it. I like it in this context specifically because, again, these are things that I look at, or I have looked at it in the past and constantly, and it's always like, you know, scouring through Excel seats and, you know, flipping through windows, versus having it in a simple
+
+<interviewer-1>  13:43  
+timeline, since my job is to critique, so we need some guidelines, yeah, because otherwise, I wanted to add the EPE threshold here.
+
+<interviewer-1>  13:58  
+Did make now help with this? Yes, yeah. So [community-leader], it's also worked by [person], who you gave the letter. Oh, yeah. So, so she's also working nice. Also, the
+
+<interviewer-2>  14:09  
+data shown in this chart is all from her work. So the ngdep, it has data sets from different communities, and we only collect even more community data. Only collected and more community
+
+<interviewer-1>  14:23  
+data, since we're talking about this, also something to note is we should personalize the I don't know how many charts we're using, but his history of lead is a little impersonal, right? So we should the title should be a little more
+
+community leader  14:40  
+history of lead indoor, more more specific,
+
+<interviewer-1>  14:43  
+or something that we want to focus on about the message, right? So maybe, you know, [city] has had a like, I'm just making a persistent history of lead contamination, but it has been particularly high in some XY years. Yeah. More descriptive.
+
+community leader  15:03  
+I really got to get you all this information. I have to talk to [person] about the data we have from four years ago. Does the data we have from four years ago? It'd be interesting the 300 homes, those are the 300 homes.
+
+external opinion  15:22  
+Yeah, yeah. And I just have a question. It's just, just treat me like a non technical person, just because I'm thinking,
+
+community leader  15:32  
+know your background, we don't treat you like
+
+external opinion  15:35  
+but I'm just wondering if a part of your work is actually getting like you mentioned, user feedback. Is it just from him, or is are there actual users that you're doing some AB testing on the visuals?
+
+<interviewer-1>  15:46  
+So yeah, maybe I can give a little bit of context. So essentially, the information that you're seeing here is based off a community survey that we did initially. That community survey was designed with feedback from [community-leader]. And then there are other people on the project who have worked with [community-leader] in the past, looking at water quality problem. So that's one where some of these questions, and then the frames those are already guided by the end users input. And now, as <interviewer-2> mentioned, we have kind of the end user in mind is community leaders and volunteers and also community members. But for now, this is mainly participatory design with community leaders and volunteers. Eventually, if this is because, what is the end goal here. The end goal here is to configure messages which a community member can consume, but those messages are based on different design factors that we're considering, like level of detail, credibility, uncertainty, so on and so forth. So what we're looking for [community-leader] inside, are feedback on what their perception is about, not only their interaction, the human AI interaction with but also the end product, which is, which are the messages? And then we will conduct focus groups with end users to see what are some of the matches and mismatches and yeah. So that's kind of Yeah.
+
+external opinion  17:18  
+I only asked because [community-leader] mentioned that, you know, there's a there's a possibility with user experience that you get all this text and people don't want to read. So then it's like, how do you engage the user in a sense of like, okay, well, here are the topics that we can discuss, but not make it so I think verbosity is fine, right? But if, when you see it directly on the street screen, I don't know if you get, like, overwhelmed, but I can see sometimes me, I'm like, Okay, how do I think as simply as I can just all those blocks of text? Is there an alternative? But I think if the ideal user is a community person, that's what they're going to look at when it comes to maybe the second stage of like, regular person, maybe just having something that is a little bit more interactive and less verbose. Yeah.
+
+<interviewer-1>  18:03  
+So we are, you know, verbosity is a problem, right, especially in today's day and age. So we have a slider which says, like, give me an overview versus more details. So that's one. Mixing text with visuals is one. But, yeah, I don't know if
+
+community leader  18:21  
+you have any of that register, yeah. So we, one of the things that we liked, or I liked about when we first started, is making sure that we're using mixed media so it's like more infographics and response instead of just text. We talked about using inputting videos instead of just text, so that, you know, a user can consume it any way that they choose Fit. It's the same information, but in different ways. And I think that's what really separates this in the way that we're doing. But the issue is, not everything has an infographic. Not everything has that. And so now it's like, okay, because I know when people come to me and they ask me water questions, like, I have seven years of like, I know the number one thing is my water is a certain color or a certain that. So there's certain things that we can anticipate for. But I think once it once we get past the messaging, and then we go into the second phase of the project. I think more things are going to come up as more users provide feedback.
+
+external opinion  19:27  
+But I think this is, this is really interesting to have a very perhaps different approach and different visual for different users. Because in the end, like for you, the verbosity and the seeing all of that text is fine, but maybe for like, someone who's just like, well, I just want to see if you know this little green hinge is just, you know, you know something that they're looking for the direct information, but not be so just drawn away by the words,
+
+<interviewer-2>  19:58  
+So, yeah, not all the frames have a visual make sense to have a graph here to show the source of contamination, rather, the system selects from an available pool of infographics to explain the content itself. Do?
+
+<interviewer-2>  20:24  
+So the next feedback from our previous session is finding personas essentially explaining the same concept in different ways.
+
+community leader  20:33  
+So caring neighbor because
+
+<interviewer-2>  20:36  
+they are more that persona is more friendly and tries to explain things easier in a more simpler manner, and are also and each persona also handles uncertainty in a different way. So someone like a city called translator, essentially explaining the power of the system, the power dynamics and the policies would consider uncertainty as a system failure, and try to point out things that point out the gaps more critically, as opposed to a neighbor who would talk about okay, these uncertainties may exist. These are normal, and here are ways you can mitigate how it impacts you. Okay, I have a few examples
+
+<interviewer-2>  21:21  
+for the content changes. So a caring neighbor would talk about we cannot rely on this type of information. These are the drawbacks. These are the reasons for it. Whereas when we change it to something like a truth teller who's more upfront and straightforward about explaining the even talking about the possibility of uncertainty in the information that is accessible, you can see the same information is paradise in a different way. Someone with a more calming tone said it is like it is possible to have uncertainties, but someone who's more upfront would say, you cannot directly rely on these averages that are shown to us, and the reality may be different from because there are outliers.
+
+community leader  22:13  
+So where does the system know to use? Which persona
+
+<interviewer-2>  22:18  
+we have, certain personas associated with certain frames, for instance, health and well being is by default. Goes for the caring neighbor, one because we do not want to cause panic, whereas for policy, yes, for protective measures or policies, we have truth teller by default. But there's also a feature of changing the tone as required.
+
+community leader  22:45  
+I just It feels strange
+
+community leader  22:50  
+to I understand the purpose. What are my fears? My fears are someone who isn't me changing this and different ways to suit any of their personal agendas. What do you all think
+
+<interviewer-2>  23:10  
+about that we haven't saved the change in Persona yet by default. We have the things, and that's what the community members will have access to this feature of changing the persona, to rephrase the message essentially, is for volunteers to test out if rewarding This could cause a better impact. So that, I think this
+
+<interviewer-1>  23:31  
+is also a control I would imagine you would have as a community leader.
+
+community leader  23:37  
+But that's what I mean. Like I'm, you know, I know I wouldn't use this in a manner unbefitting the tool, but someone who's not me changing these, these tones could have, you know, if they, if they want to cause pain, you know, they change it to a certain tone. So the My question is, you know, again, back to like, these moral, weird gray areas.
+
+<interviewer-1>  24:01  
+No, I don't think they're weird, but they're very much they interfere with how we deliver technology and information. I think the entire premise of this work is that community leaders and volunteers will have the agency and the control to to essentially fine tune how the messages are being delivered. So I think there is an inherent responsibility and and dependency and an assumption that it will be someone like you, and I don't think we can actually relax that assumption for anything, unless you are on open AI and you think that you know the world is your playground, and you know it's up to the consumers, to you know, know what they're consuming. So we have to assume responsibility. And I think we can also look into responsible AI literature on how this is frameworks and stuff,
+
+community leader  25:03  
+even if it's transparent, like, you know, maybe, because I'm assuming whatever we build is going to have some kind of user manual, yes, and there probably should be a public facing one, and Clearly one for this. And I think even in both manuals, this topic of Persona needs to be absolutely so that at least on the consumer end, they know that these frames are designated to certain profiles. Yes, yes, that would make me feel a lot more comfortable. Just I
+
+<interviewer-1>  25:39  
+understand, I understand how you're thinking, yeah, how do you
+
+community leader  25:50  
+feel? You could be honest, and it matters what you think out,
+
+community leader  25:58  
+what the impact of each action will
+
+community leader  26:01  
+be, will definitely be beneficial. Just
+
+<interviewer-2>  26:05  
+thinking about more from a feature perspective, like by default, you can check the personas and see how the message differs. But I think you should also have the flexibility of saving that so that maybe a community member cannot select the persona. They can only see the message. But if you want the message to be formatted in a certain way, after some internal review, then that should be reflected to the community members as well.
+
+<interviewer-1>  26:32  
+I completely agree with you. I mean, I don't think the we can have give access to everyone to configure the personnel. That's for sure. This is access control, yeah,
+
+community leader  26:41  
+yes, I agree with it. I just feel that, like, if, like, if I know that I'm receiving something in a specific tone, like, I would want to know that going edge. And I think just stating that, hey, also, like, These frames are presented in this way, and just given the definition, yeah, that satisfies everything. Absolutely not access to any of the features on
+
+<interviewer-1>  27:01  
+the back, absolutely. And also, yeah. And to go one step forward, I think the way we are configuring this is we get your and community volunteers input on what you think, and then we also get the other perspective. So, I mean, we're hoping there's more matches than mismatches, yeah, but that will also guide us towards how to configure
+
+community leader  27:23  
+these because already the thing that, because I am the type of community leader I am, yes, everything that the city government says i is, automatically I'm being inflammatory. Yes, automatically being
+
+community leader  27:38  
+like, You are the skeptical. So then, if they're like, he's controlling the tone on this like, Nah,
+
+external opinion  27:46  
+there's an easy way, or not, not an easy way where, like, you have the power to toggle between the role, yes, but the user should have the power to, okay, click, okay. This is giving to me in truth teller, what is what does that imply? What does that tone imply? So having that just to inform the users, like, Okay, this was used, this text is used, generating with this tone, what that means is that there will be this so I think that you don't allow the users to have the power, but you inform the users
+
+<interviewer-1>  28:18  
+yes on that Yes. And I think a tonality something that we actually configure in the
+
+external opinion  28:25  
+I mean, even if it's for the layman, I think it's fine to just say, Look, we're using this persona or tone, just so that they know exactly why the information is structured in that way.
+
+community leader  28:35  
+And I would like if you could send me just another example of another frame with the different things, just so I could read it thoroughly. I would, I would
+
+<interviewer-2>  28:48  
+have that in this video. You can always interact with the system, but if you want a recorded video, I can send you that as well. Okay, this
+
+community leader  28:59  
+is cool, though.
+
+<interviewer-1>  29:11  
+Yeah, I'm thinking that one way to position this work is also like, so this is like, there's a knowledge base, and imagine just we're doing Google search, right, but we're not really doing Google Search. This is like structured, semantic search through knowledge base, with the end user in mind, where there's a lot of key decisions at every step, like with the tonality, level of detail, modality, everything, I think, yeah, just thinking about
+
+<interviewer-2>  29:49  
+next feature that we talked about was getting voluntary access to the level of detail presented so initially, in summarized view, the first level is used, which states out the critical claims or facts that could be informative or useful for the community members, or whoever the end user is, they have the feature to control the increase the amount of detail that is presented to them.
+
+<interviewer-1>  30:16  
+So l1 to l3 is increasing detail, right? Yeah. So this is like kind of overview something in the middle, and then it is the most granular
+
+community leader  30:31  
+example of how the message changes
+
+community leader  30:40  
+as the level of detail is increased.
+
+<interviewer-1>  30:41  
+So the first level, sorry, a so the we talked about the level of detail being associated with each frame,
+
+community leader  30:50  
+we allow different levels of detail in each frame.
+
+<interviewer-1>  30:53  
+That's why I'm asking. So is it associated with each frame or each slide, or each question, each slide, each slide, yes, there's more
+
+<interviewer-2>  31:01  
+each slide. So in a first level, it only talks about lead lines and corroding pictures, and then there's fewer details underneath that, as the user asks for more explanation, there are, rather than saying just corroding pictures, corroding brass pictures, or there could be lead solars that are commonly used in specific year that could have caused leaching of lead into the water system. And even in the actions or how to read the report, what can be done to understand it better. There's more detail added as we look into more, as we increase the amount of details from the message itself.
+
+<interviewer-1>  31:54  
+I think the control is a little hidden over now. There's a small UI issues, right? So unless you scroll, you don't know you have the control. So the control should be more visible ever, like it on
+
+community leader  32:06  
+top. Yeah, on top. And finally, for its most amount
+
+<interviewer-2>  32:13  
+of detail, there's one once
+
+community leader  32:21  
+explanation, essentially, of the terms that were used.
+
+community leader  32:26  
+Very straightforward, yes, I like this because one of the things that is important to me down the end is to make this be able to be used for for research. So I see this as like, if we do enough for it would be that researcher. But I like this because, and especially if you move the bar up top, people will be able to click through and then notice the differences, and then, you know, follow along. So this is really good.
+
+<interviewer-1>  32:55  
+I mean, my eyes are drawn towards the bullet points. So what, is those are paragraphs, right?
+
+community leader  33:05  
+Yeah, this is like a paragraph title,
+
+<interviewer-1>  33:11  
+yeah, but don't use the indentation or the bullets, right, because it's almost like, okay, there are those bullet points and then there are these descriptions. So and all you also see, these are small things, right? You see the space between the bullet point and the paragraph below, so you almost associate the review, the report with the previous paragraph. So, small, small things. I noticed that, as
+
+community leader  33:37  
+I just don't have enough control, I'm trying to use a different library
+
+<interviewer-1>  33:41  
+for now, it's fine. Could you remind me another thing we talked about was using the frame colors? Yes, yeah,
+
+<interviewer-2>  33:49  
+I'll explain that in the next video to give you an overview.
+
+community leader  33:54  
+So the LLM
+
+<interviewer-2>  33:58  
+is trying to highlight this stuff and the jargons in the same way, although it's explicitly mentioned. And what I tried to do was use the color of the frame to show to match the color of the text, but it was difficult to read because we're using most of the pastel colors. I tried increasing the intensity of the color as well, but it's difficult.
+
+<interviewer-1>  34:21  
+If you increase saturation, it should, should be okay. We can work through that. That's something you and I can work through.
+
+<interviewer-2>  34:29  
+Yeah, we need a different way to do that. I thought of highlighting the text itself, but it seemed like a lot of colors, where I used underlying for now,
+
+<interviewer-1>  34:37  
+yeah, I have a radical idea, but we'll see, like a black screen that will that will actually do it, because black screen adds more contrast. There are people who prefer white screen. Yes, yes, that's why I said radical idea. So yeah, that's the different
+
+<interviewer-2>  34:55  
+levels of detail in the message itself. And we also talked about feedback mechanism, rather than having to give a text feedback each time. But this video actually starts with a different context, which is the facts that are displayed as the message is loading, and considering the length of the fact itself, it shows the message for about 15 seconds, so people have time to read it. And after 15 seconds, the message changes and updates as we go.
+
+<interviewer-1>  35:32  
+And this is not yet fully implemented, but this is just a preview of what we want to do.
+
+community leader  35:38  
+Yeah, I like, I mean, I know before, it's better than what it was before, so I really enjoy this.
+
+<interviewer-2>  35:44  
+Also the facts that are displayed here are closely tied to the question that is selected. So since the question is about PFAs, all the facts that are displayed are related to PFAs and also in some way, related to the frame that is selected. So as long as we have information regarding within that frame that is a state once we run out, and if it's taking longer than the other frames are also used to display the facts.
+
+<interviewer-2>  36:13  
+So previously, what we had in the previous version was giving feedback from within the model, just to give feedback portion. But now if you think that the content is good enough, you can just do a thumbs up or a thumbs down without choosing to provide a feedback. Yeah, so there's a thumbs down, it lets you enter what you did not like about it, so that the LLM can fix it in its future iterations.
+
+community leader  36:46  
+For thumbs up, we don't care what they liked. This should be text from what for thumbs up, yes, but it
+
+community leader  36:55  
+felt like there's that would be a lot of work. I like the content for
+
+community leader  37:03  
+Yeah, you still have the option to give feedback either way. So that's okay. I like that. That works.
+
+<interviewer-1>  37:18  
+And just like keeping in mind, like Yelp, right? So even if, when you have the same rating, like a high rating, people would want to know why you have rated something high. So it's kind of going to the reasons of because someone was rating it high could have a very different reason from another person was rating it higher.
+
+external opinion  37:39  
+And I'm sorry, the feedback mechanism Are you retrying with? So rerunning the information to be regenerated with what this feedback is
+
+<interviewer-2>  37:49  
+monitoring, and that feedback is stored, so it is considered in every future API calls as well. So it's saved for per question per frame, so every time someone else asks about PFAs and the source of contamination, whatever feedback you give this time will be considered when generating the content the next time.
+
+<interviewer-1>  38:09  
+Yeah, and this is a three year project, so we're hoping that we can have people use it, and so that we can have a rich interaction log too. Mainly, [community-leader], I so the eventual goal is to create an AI clone of [community-leader], right? So that's
+
+community leader  38:28  
+a black mirror, but then I'll become Skynet.
+
+<interviewer-2>  38:37  
+Another thing that we discussed last time was just having the colors required people to go back and forth to understand what was what the content was about. So I added a small text here, which is difficult to see in this shared screen, but it essentially contains the title of the frame itself, so you don't have to go back and forth. These are some minor web fixes that we worked on and another feature
+
+community leader  39:07  
+looking at it. So how so the slider that we have for adjusting the level of detail? Don't you think it would be helpful here as well, because of the amount of text that we have. My
+
+<interviewer-2>  39:27  
+concern about having that here is, since this is listing out all the facts, the LLM might rule out the fact facts rather than rephrasing the
+
+community leader  39:36  
+content, could you go back to that screen where we Yeah, just pause. So in here we are, essentially
+
+community leader  39:50  
+each sentence is a fact here.
+
+community leader  39:54  
+So the level of detail once you click on it and learn more, that's when you access the level of detail. You're saying. To have the level of detail here,
+
+<interviewer-1>  40:04  
+yeah, because this the way this is structured, we need to chunk it somehow. And that somehow is not clear to me, but I'm sure that this is two verbose by current standards of you know how we communicate information? Yeah, I mean, like we're discussing, right? [community-leader], it might be okay for you, but we don't want to just configure something that is okay for you. And also, this is an abiding goal for our work as well to how to come up with meaningful chunks. So let's think a little more about also, I don't want to have the reviewers to so these are things that reviewers can immediately pick on, right? So that if your goal is to structure the information, then why aren't you doing this for Excel? We might have a good reason, but think we can do better. Let's discuss that and the color aspect you
+
+community leader  41:26  
+so we also looked
+
+<interviewer-2>  41:27  
+at bookmarking content. Here. I've used a different question. Selected a few topics that were of interest to me, bookmark them and when I switch the question or the topic that I'm interested in, and the messages change, maybe there's some overlap, and I'd like to go back and review the previous thing. So that's what the bookmark feature allows you to do. This I highlighted because we also worked on improving the knowledge base, and it talks more about what each color, what could be the cause for each color, what it could mean. Although this does not fully capture the knowledge habit that this is a reflection of some improvement in the marketplace
+
+community leader  42:16  
+itself, something
+
+<interviewer-2>  42:19  
+it wasn't able to talk about what specific government and what would be the cause of it. So articles published by a couple of universities in collaboration, I might have
+
+community leader  42:37  
+some articles too from universities that specifically have like, color charts and stuff. So yeah, I know I need to like,
+
+community leader  42:47  
+okay, and this, and this is the book, yes.
+
+<interviewer-2>  42:50  
+So the first two questions are from a different question that we were exploring previously, along with the frames what the content was, and then it allows you to look at it in parallel with the current content that you bookmarked.
+
+community leader  43:04  
+I really like this feature,
+
+community leader  43:10  
+especially if I'm like working on multiple things, it would just be easier
+
+community leader  43:17  
+for me to have everything saved. Sees only for a specific session. Okay, so one session
+
+<interviewer-1>  43:27  
+for now. Once you close it, it's gone. Yeah, we can. We can do many things with this. We can do procession, and we're just building the bones.
+
+community leader  43:36  
+Yeah, three years from now, who knows what this those are
+
+community leader  43:47  
+the changes that we've worked on so far. If you'd like to use
+
+community leader  43:59  
+the interface GP, GPT has been acting a little crazy. Sometimes you just have to refresh
+
+community leader  44:11  
+and what is the underlying model
+
+<interviewer-2>  44:13  
+we're using GPT for collecting the facts so we have a knowledge base. We use the rank system to synthesize the content based on that, and then for the formatting and presentation with persona and level of detail, we're using Gemini tree flash.
+
+external opinion  44:28  
+And are you guys doing any validation, post validation, before it gets to the user?
+
+<interviewer-2>  44:33  
+This has been mostly manual about the content, and
+
+external opinion  44:37  
+you guys have a data source that you guys are using for, like a subset for correctness, yes.
+
+<interviewer-2>  44:45  
+So for the reliability of the information, we've scraped websites and articles published by the universities, also at this point, EP, CDC, ngtep, and using that as the knowledge piece for the LLM and restricting its knowledge to that so it does not hallucinate to create something that's not allowed.
+
+community leader  45:07  
+We are using a validator,
+
+<interviewer-2>  45:09  
+yeah, but it's the model itself. There's no manual validation. The model itself does a cross check.
+
+community leader  45:16  
+Is it relevant? Different model, the same model.
+
+community leader  45:19  
+Currently it's the same model, but we're considering a different model for
+
+<interviewer-1>  45:23  
+that, yeah? Because in another piece of work, what we did was we restrict the knowledge of the validator, and we configured those are different models, right? So we should be doing, doing the same for for this one as well.
+
+community leader  45:39  
+I think the just adding, yeah, I just need to get more resources then, like on a holiday, and by next week, I should have all the names and stuff like that focus groups.
+
+<interviewer-1>  45:56  
+Yeah, and we need to do that next week sometime as well. We can discuss that. Yeah, yes,
+
+<interviewer-2>  46:06  
+so I think we should move away from GPT. It's giving blind responses. It's been happening since last night. It was working fine.
+
+community leader  46:17  
+Claws are gonna be nice. Yeah,
+
+community leader  46:21  
+we're using that project.
+
+<interviewer-1>  46:27  
+So should we do that at this point, or
+
+<interviewer-2>  46:31  
+with Claude? It's we load some amount into the system, and then it uses that, and once it runs out, it says, quarters out, I'm not able to find a subscription thing that renews annual, like a monthly thing. That's kind of why I'm hesitant if we deploy the system.
+
+<interviewer-1> 46:49  
+I did not get that, but we can have a subscription, right?
+
+<interviewer-2>  46:52  
+Yeah, but the subscription works more like a debit card, yeah? So for GPT and Gemini, what we're doing is, once we get a subscription, we use it, and end of the month it, there's an auto renew thing that's going on. But for Claude, you add like $15 into the account, and then the system works as long as you have money in that account. And once you run
+
+<interviewer-1>  47:15  
+out, that is fine. We have for this project, we have enough funds.
+
+<interviewer-2>  47:19  
+Thing is we have to remember to review the fund each time. If that happens when someone else is using it, then that'll be difficult for us to try. We either have to load the same amount every month, which might
+
+<interviewer-1>  47:32  
+be, no, I don't think, yeah. I mean, we have a restricted use at this point of time. It's not like we're opening up to the public. So if there are, like, four or five of us using so we and among us, we know that how much is the use? So we can always do that. So what I want to do is, let's do what is time efficient for? For the deadline, right? If switching to cloud is time efficient, then let's, let's not wait and do it right now.
+
+<interviewer-2>  47:59  
+It's not generating anything at all. If I managed to record it last night, somehow, it's a good thing that you did that,
+
+community leader  48:09  
+because everything that can go wrong during a demo will go wrong. It
+
+<interviewer-2>  48:17  
+happened a couple of times in the evening while I was testing, but after a few refresh, it was working, but for some reason, it's not working.
+
+external opinion  48:26  
+And is it the responses? Yeah, it returns
+
+community leader  48:30  
+an empty response. I
+
+community leader  48:50  
+and so will you be doing?
+
+Transcribed by https://otter.ai

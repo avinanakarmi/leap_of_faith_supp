@@ -1,0 +1,683 @@
+Speaker 1  0:01  
+Stuff. I'll walk you through the interface. It's pretty much similar to what we looked at last time, but with the new a few new features,
+
+Unknown Speaker  0:09  
+feel free to interact with the system the way you would once it's fully fledged. But for now,
+
+[interviewer-1]  0:16  
+we're working with and any feedback is good for us, negative, positive, neutral, anything. So feel free to say anything, even to even outside of the context of what we're asking.
+
+Speaker 1  0:31  
+Currently, we're efficiently handling the questions listed here, learning about the analytes mentioned here. The AI interface or the AI assistance itself is not flexible enough to have any any query outside of this, but you can still provide feedback, and it updates the content accordingly. It just needs a base to start with, rather than digging deeper into any general query to begin with. So an ideal way for us to start interacting with the system is try to see what the community members are curious and learning about. So probably they're concerned that their water tastes a little different at times. The system takes a while to collect all the information from different resources like CDC and EPA to try to answer the question that we're dealing with. So the initial approach that the system takes to respond is try to give you an overview of the problem itself and some actionable steps that the community members or community leaders can take regarding that topic. Once the content is generated, we can ask the system to focus on specific topics, like the health impacts caused by the concern. For instance, right now we're looking at the taste of the water.
+
+Speaker 2  1:50  
+Question is, how long the what determines the factor and how long it takes to pull the information?
+
+Speaker 1  2:00  
+It's how much information is available. So it has to look through all the content, extract the ones that are relevant.
+
+Speaker 2  2:06  
+Is there anything that you can do to like? Can we start like from, I guess, a new query I wanted to count how many seconds that
+
+Unknown Speaker  2:22  
+is. Let's try the PFAs question
+
+Unknown Speaker  2:29  
+and latency is something we need to work on
+
+Speaker 3  2:36  
+that's okay
+
+Speaker 3  2:58  
+and We need to say something. I got 47 seconds. 47 Yeah.
+
+Speaker 2  3:05  
+Okay, so it's not a matter of like, Oh, I like, definitely latency. But if it could have like, I don't want to say, like, I've seen things, whereas, if it's loading, there's a game that you can play, or maybe facts come up as it's loading, yeah, we know it takes 47 cents. So like, like a ticker or a scroller or something would be helpful,
+
+[interviewer-1]  3:37  
+absolutely, yeah. So even a, like, a progress bar, for starters, would would be good, like, so that you know how much long one should wait, like, chat, GPT nowadays they say, like, still thinking, thinking, still thinking. Hold on, like, we don't need to do those artificial things. But yeah, something to
+
+Speaker 2  3:58  
+or even, like a progress bar on, like, the amount of articles. So it's like, you know, pulling 100 out of 10,000 or something, yeah. So that'd be my first one off
+
+[interviewer-1]  4:09  
+the bat, yeah, something that is transparent to
+
+Speaker 1  4:12  
+I think a better option would be to list out the sources that are being
+
+Unknown Speaker  4:16  
+Yeah, read, pulling from get those.
+
+Speaker 1  4:23  
+Once we have the content, there's usually a lot of cards, and that could be overwhelming to look at all together. And maybe you even want to look at how the pieces of information present and connect together. So you can always select those and try to see how those topics are linked.
+
+[interviewer-1]  4:42  
+Did you talk about what the colors mean? Like you can repeat the fact about the question versus the intent and the rows and the columns, what they mean, and then the colors. And then, yeah, okay, so the
+
+Speaker 1  4:58  
+different tabs that you see on the top of the screen, those are focusing on specific frames, essentially. So for instance, you're a user asking about presence of PFAs or burner chemicals in the water. Is something more general. We can talk about that question from different aspects, like the health impacts the presence can have. What policies are in place to regulate that if there's any work going on based on that, how the contaminants get into the water, how the results have changed over time. So for
+
+[interviewer-1]  5:29  
+the same question, we can have essentially different perspectives. You can think of those frames as perspective, and they're intersecting. So that's why we have this layout where we lay out the questions directly, what a community leader and volunteer might have on their mind, and then some of the perspectives, and they can select those, and that's why you see those different colors.
+
+Speaker 1  5:52  
+So even when we're talking about the overview and what actionable steps can be taken, health could be one of the concerns that relates to the content. So we tend to get information from different aspects, actually.
+
+[interviewer-1]  6:08  
+Now that I see it together with [community-leader], I think we should make it more explicit, like it's like, just say, this is health this is about I don't know facts. I forgot what those frames are like. Have some names so that, because both are, both are questions currently, right? Yes, I don't know, [community-leader], there's a little confusing the way we have it. Because the only
+
+Speaker 2  6:35  
+my suggestion would be, is, if you had like, a color chart at the bottom, yeah, yeah. And it just said, like, you know, blue is general, green is health, purple is Yeah.
+
+[interviewer-1]  6:45  
+We don't need even at the bottom. We can did overlay directly there on the color,
+
+Speaker 2  6:50  
+yeah, that would be helpful. Because yeah, we can have, like, yeah.
+
+[interviewer-1]  6:57  
+And I don't think we should. These are nuances, but important, we don't need to have both as questions, because then it is a little confusing,
+
+Unknown Speaker  7:06  
+as in the community question and the phrase Yeah.
+
+[interviewer-1]  7:09  
+So we need a different way to express the frames,
+
+[interviewer-1]  7:19  
+just an explanation, the name and the explanation, that's it, okay. And maybe you can mention how these are organized and then how you combine.
+
+Unknown Speaker  7:36  
+So the content is, thank you for all your hard work.
+
+Speaker 1  7:44  
+So content displayed is facts that we found in articles that we currently go through to summarize, in order to answer the question the community members have, they're groups together based on similar topics. So for instance, if we look at what even is PFAs and why they matter, it lists out all the content that was found from our knowledge base. So currently it's pretty limited, because the articles mentioning PFAs itself is limited in the articles that have been published so far. So if you look at the content, you also get a link, so you can always select the link and go through the original source from which the content was based off of. So essentially citing the source, and usually you can provide feedback regarding so if the information that is presented here does not resonate with what you think it is and you want it to change, you can always provide a feedback or ask for more detail, so that we
+
+[interviewer-1]  8:50  
+can probably make it even easier, like we can also [community-leader] can agree or disagree with this, so just like we do in The construe AI interface, like a thumbs up, thumbs down. Because sometimes the thumbs up, thumbs down is enough for feedback and every because otherwise, every time they we are forcing them to click on something and give detailed feedback. So yeah, when you see something, maybe you do, like a thumbs up, thumbs down, thumbs up means that you know, essentially, you like what you're seeing, and thumbs down is maybe not. And then provide the reasons. Everything gets recorded in an interaction log, and then we use it for reinforcing the
+
+Speaker 2  9:34  
+and this is on the back end, though, right? This is what I'm seeing as the operator of this?
+
+[interviewer-1]  9:42  
+Yes, so I want to think that, you know, this is so the way we are thinking. I think I showed you a picture, probably during my presentation, so community leaders and volunteers, they are currently interacting with the conversational
+
+Unknown Speaker  10:02  
+AI, right? Yeah,
+
+[interviewer-1]  10:05  
+so you have the agency control to configure it right, and then there is currently, there is no direct interaction with community members, but you're controlling essentially the output, which are different messages, yeah, and this is where they have interaction with this doesn't exist right now. Why? Because, yeah, we need to. But this is the interaction right now, so that you can control what gets delivered. So the dual, there's a dual purpose of this. This is the process I this is the process through which this is generated. So you're interacting with the process to control the outcome. So I wouldn't think of this necessarily like you're just modifying the back end. This is very much for you to this dashboard is very much for you to use.
+
+Speaker 1  11:03  
+I will show you what the community members will eventually see. So the next step, this step, you're just making sure the facts are in place. If you want to add more detail or mention anything specific that you would like the system to focus on. Once that's done, the next step will present messages that, essentially, the community members will consume, even in the message itself, you can work on, you can provide feedback about restructuring, rewriting the content in a different way that is more relevant to the community.
+
+Speaker 2  11:34  
+Can I ask, like a, I guess, a moral question is, if I, if we wanted to, like, say, for example, the one that you pulled up about PFAs, and it has the link and it has the number two is, it would it? Would it be a problem if the [community-based organization] had an eye or an article also in there, like, what is the [community-based organization]'s opinion based off of what this reading is? Or is that not? Is that make this less objective and less like, you know, because now we're interjecting our own personal organization opinion into something that doesn't necessarily
+
+[interviewer-1]  12:21  
+like there is subjectivity involved in everything that we pretend is objective here. So yeah, so I think the entire purpose of this is for the conventional leaders and volunteers to have control of what information gets delivered. And if you think that paraphrasing or summarizing, like generating a custom summarization of the information is what you would so you essentially need more agency and how the LLM summarizes the message, that is how I see that, right?
+
+Speaker 2  12:58  
+Yes, yes and no, because it's like, you know? It's like, okay, I know what the CDC is saying, but it's like, some people I know, I know don't, aren't gonna trust the CDC, but it's like, I'm using this because I know it's the [community-based organization]'s model. So I'm curious, what does the [community-based organization] has to say about? Yes, but we're not, you know, we're not the CDC. We're not an institution like that. So what i My concern is, then, if we're putting our own thoughts in there, is, does that, you know, does that mean this is like, like, I said, it's like, oh, this is less credible now, because the opinions of this organization are now,
+
+[interviewer-1]  13:41  
+yeah, and I can give you two answers. One is like, instead of politically correct, I will say academically Correct answer is that reviewers might raise some questions about that, because then you know you are basically asking them to read opinions, but we're positioning this as kind of a factual knowledge base and stuff like that. In that's the thinking from the paper's perspective. But in reality, I don't see any reason why we should not do that, because I think the role of [community-based org] here is like, I can give you this. I don't know this, if this is controversial or not, like [community-leader] Fauci, who he used to be for the rest of the world during Do you know who is? Yeah, so something like that. So then it's up to people, if you trust him or not, right? Yeah, but you are the custodian of information, and I don't think there is any moral conflict there that you're imposing. Ultimately, people can choose to believe CDC, choose to believe EPA, choose to believe [community-based organization]. I think it's up to people.
+
+Unknown Speaker  14:59  
+But yeah, what are your thoughts on
+
+Unknown Speaker  15:03  
+this, talking about it
+
+Speaker 1  15:04  
+from like a product perspective, how the community members would interact, I think having [community-based organization]s opinion would actually make it more trustworthy for the community members, because, based on what my conversation with you and say, what I felt like was it's more likely for community members not to trust government organization, and since you've had that connection with the community members for so long, and they trust you regarding the information and everything else that you're giving to them, I think that would Just make the system more credible from their perspective,
+
+[interviewer-1]  15:43  
+yeah, yeah. If, let's say, if we are to include this, it would be good to kind of integrate this within the system in a way that you can also track where this opinion comes from, right? It's not that, oh, I think that this. I think if we have a structured approach towards doing that, because this also kind of begs the question about scalability. Do you do you want? How do you want to integrate the [community-based organization] perspective regarding every question, regarding every frame, regarding whatever questions people ask, because then people will some ask some questions, and they would expect an opinion, [community-based organization], opinion for everything, for everything. Do you want to because that's not scalable. So then, how do we, how do we configure that? That's an interesting question where you have like a community custodian in the loop. How do you scale their perspective? I wouldn't say opinion. Probably, yeah, yeah, yeah, okay, that's helpful, yeah, we can, we can think, think about that.
+
+Speaker 1  16:59  
+So if there's some content that's not displayed here, you can always provide a feedback using the AI assistant. That way, it will regenerate all the facts that are presented and include your feedback into consideration when generating the content itself. Once you're through with reviewing all the facts, if you are satisfied with what with what is being presented, you can ask the system to generate the messages that the community members will consume eventually.
+
+[interviewer-1]  17:32  
+This, again, chooses based on selections. Right the card, selections, how, what? What is the interaction you triggered based on what?
+
+Speaker 1  17:42  
+Oh, so it uses all the content to just to generate the messages, because otherwise you'll have to select multiple
+
+Unknown Speaker  17:50  
+send. Right?
+
+Speaker 1  17:52  
+No, I said I clicked on the other button. Proceed. So it uses all the facts to generate this one, right? Yes, this one, it has a different text. Initially. It just says proceed, because it generates the messages itself.
+
+Speaker 3  18:08  
+But, yeah, these are small things, but sorry to hijack your
+
+[interviewer-1]  18:15  
+this is not associated with AI assistant. This is associated with the content here, so they should be closer to where the provide feedback is to the AI assistant, right? Yes, so I don't think,
+
+Unknown Speaker  18:28  
+Okay, just one button,
+
+Speaker 3  18:31  
+so we have to make them closer to where the feedback is about. I
+
+[interviewer-1]  18:45  
+and you no need to use different tools, because they're already different colors. A lot of scrubbers.
+
+Unknown Speaker  18:51  
+That was something that I noticed as well,
+
+Speaker 1  18:55  
+how we've required the system to present the information is in smaller chunks, so it's more digestible to the audience. So as we move proceed through the slides, more information is displayed to them each slide, focusing on a specific topic. So the first slide is you see talk give more about an overview of what we're going to talk about in the follow up slides, what these chemicals actually are. Why are EP? Why is EP regulating them and steps that you need to take to know more about it. And as we proceed into the slides, it gives more detail about each topic.
+
+[interviewer-1]  19:33  
+So what we mean by slides is a sequential right? So it's just that if you were to print out, there would be a bunch of slides, I don't know what, what? What is your thinking about this? About the slides?
+
+Speaker 2  19:43  
+Yes, I'm a sucker for the little progress thing. How many is in here?
+
+Unknown Speaker  19:57  
+We currently don't have visuals for the people.
+
+Speaker 3  20:01  
+What would be interesting to do would be just addressing [community-leader]'s point, right?
+
+[interviewer-1]  20:08  
+Let's say there are 12 instead of six, right? It then starts to cross the threshold of our patients. So then what should we do about it? Maybe there is a button that says that let me see everything on one screen, right? Combine, or something like that. And then maybe you want to jump to slide number 10 that is more relevant, right? We don't, we don't know, because here we are forcing people to, just like our modern system, information systems in our college are designed the most in a most painful way that force us to yesterday, I was doing grading, right? So it was like, I'm searching my course, but my course won't come up. Then I have to click on a bunch of useless buttons to get to the course which I'm grading for. So it's something like that, right? Not that this is as bad as that, but it's like when you force people into artificially progress through a sequence when, like, it's not linear, right? So the traversal, so we have to kind of respect the nonlinear process as much as possible.
+
+Speaker 3  21:24  
+I mean, I was thinking that, why didn't you give me this feedback earlier? Because I did not think about this.
+
+Speaker 2  21:31  
+That's why we're here. I listen. I've been telling everybody about this. I was like, This is a story. I actually went back. I got the Zoom link from [person] to show our staff. I said, oh, did it show yeah, what
+
+Unknown Speaker  21:45  
+does it think about
+
+Speaker 2  21:47  
+this is crazy, yeah, because it bothers me that the bar for community engagement is so low,
+
+Speaker 3  21:56  
+it is artificial and it is low. Then on the other
+
+Speaker 2  21:59  
+side, I'm out here doing the most and driving myself crazy because I'm deciding to do the most instead of being like, I can have a little bar for myself and it'll be fine, and I'd be probably happier, but I'm stressed out all the time. Yes, nobody you know, you get, I think a Nikola Tesla all the time, you got all of these brilliant ideas, yes, still just
+
+[interviewer-1]  22:24  
+end up really Yes, yes. And that is the precise reason why we need to rethink community engagement. Because sometimes, from the academic perspective or industry perspective, it's like just another thing that we do, just fulfill requirements. But this is as real as it gets. It is challenging, but it is real, so that's fun, too.
+
+Speaker 1  22:47  
+So we want like images that help understand the content better. So for here, we're still working on collecting the images. So I just have a placeholder for this, an example of this could be like a legal of certified filter that people can look at if they want to implement it. Yeah, so, like, where they can you go back.
+
+Unknown Speaker  23:25  
+So this will essentially be like
+
+Speaker 1  23:28  
+a snapshot or an image of one of the labels that are available in the filter that used to get rid of a specific chemical in the water or any contaminant in the water.
+
+Speaker 1  23:51  
+For now, you can provide a generic feedback to each to generate feedback to all the slides that are presented, all the content that is presented, the details, the tone of the message itself, like, is there anything I can do at home? And the answer is directly says, yes, maybe you want something more nuanced, like, there are probably certain things you can do at home, but you want, but you should reach out to professional help or maybe a little more information about what they can actually do. Now that I'm showing this, I think we should have a feedback for each slide as well so that we can update the content. But currently you can provide feedback for all the slides in general. Oh, okay. Okay.
+
+Unknown Speaker  24:43  
+I'm not in
+
+Speaker 1  24:52  
+and so these are the general community questions that we felt the community members would be interested in based on the survey response that we have so far. However, as a volunteer, based on [community-volunteer] feedback regarding his experience working with home visits and field visits and stuff like that, he did mention that as a high school student, there were certain technical terms or technical knowledge itself that he wasn't accustomed but so as a community volunteer, we can always go look into the specific like the scientific terms. What does it mean to have equally E Coli in your water, and then just select that and go through all these steps, learn about the facts, understand the health impacts of presence of that contaminant in the water, and also see how it would be presented to the community members, if ever needed to. Also considering your feedback from our last meeting about being able to see a log of all all the feedbacks that the volunteers or community leaders provide to the system, we have a feature where you can see what feedback was provided for each type of content. So for instance, when looking at different effects or actionable items, a lot of community leaders felt that they needed the system. Needed to provide more information about point of contact, about where they can get that information from, about the filters that can be used, or how they can even read the CCR report that is published by the city. All of these feedbacks provided to the system is considered in all future, future steps that the system takes to generate the message itself so it can it's it is in two phases that you provide feedback. So the feedbacks are also displayed back to you in two phases. So initially, when you talk about when you provide feedback to the facts, those are the things remembered by the system to explain, whenever looking at a different question in the future, and any feedback that you provide to the slide the messages itself, it can include, explain more technical terms and details, or present explain it for a specific type of audience change the tonality or the sentiment that you would like the system to focus on when the sending the message.
+
+[interviewer-1]  27:28  
+Sorry, we should also have a way to so on all the content that we showed, we should have a way for users to bookmark so that you can have a summary for yourself later on, maybe because you have browsed through all the content, but might not remember and you might on the go, you might want to just say, like, look at it later, like bookmark, and then those are stored in one place, and they can look at bookmarks later on and on that note. Sorry, we can also
+
+Speaker 1  28:08  
+this, dismiss, no, actually, for the bookmark. We want to allow that for the initial phase, which is where the facts are presented, the slides and feedback
+
+[interviewer-1]  28:27  
+for everything. Yeah, the so it could be as granular, you know, as people want. They can click on it or not.
+
+Speaker 1  28:39  
+This is more of a technical implementation detail, but I think the best way to do this is have the bookmark saved for the session, rather than stored across sessions, because once we cleared it, if it clears, then that will be more storage efficient for us.
+
+Speaker 4  29:05  
+Let me reload this, and You can break it. I i
+
+Speaker 2  29:48  
+What do the colors mean? Again, I know this is health. Yes, this is general.
+
+Speaker 1  29:53  
+That's General. That's about the regulations and policies, the historical aspect, how it has changed over time, and the cause of the problem how the content gets into the
+
+Unknown Speaker  30:20  
+water. So it's the Learn More button. If you want to see,
+
+Speaker 2  30:36  
+I know for this question, people are gonna, they're gonna, they have, like specific watercolors so that if they're asking a question, it's like, Why is my water green? Why not just discolored or cloudy? It's a specific color that they're asking for.
+
+Speaker 3  30:56  
+So why don't we do, like the provide feedback for you to you can
+
+Speaker 4  31:00  
+use the Learn More, because it's specific to the specific that yes, so
+
+Speaker 2  31:06  
+if you give feedback, so just Like specific colors or so you Yeah, color concern, yes, like that, yeah, so
+
+Speaker 4  31:36  
+it takes a while to generate the contents. Meanwhile, you can go through the other cards. Yeah. Court
+
+Unknown Speaker  32:01  
+and is it possible?
+
+Unknown Speaker  32:09  
+Here would be when it
+
+Speaker 2  32:17  
+provides immediate feedback for something that's like, like, this one. Is it possible also to integrate something where it's like, okay, if we're telling people to reach out to their health department, you know, if you want to, if you want to click this button and it'll reach out for to the Health Department. Or is that too much? I I can be done. So even just making it, even if it's even if it is just [city] specific, I'm fine with that. So it's like, you know, if I'm in I'm a [city] resident. My water looks cloudy. I want to contact my health department. I rather them not have to click off of a screen or Google something about their health department. They could just do it
+
+[interviewer-1]  33:07  
+from here. But in this case, you're saying for the community member, for the community member, but at this point they're not interacting with the system. So yeah. So do we want to include that in let's, let's say we, what we want to do for the focus groups, which we also want to talk about, is we would print out some of this and give it in papers. So do you want us to show in there? Like this is a number you can reach out to something like that. Yeah, yeah. So.
+
+Unknown Speaker  33:41  
+So essentially, the action they can take, right?
+
+Unknown Speaker  33:49  
+Yeah, there's no point of contact.
+
+Unknown Speaker  33:59  
+What is this? Drinking water. About index.html.md,
+
+Speaker 4  34:04  
+that's because of the LLN response, the different format that I was talking
+
+[interviewer-1]  34:08  
+about. So there's some weirdness you will notice, [community-leader], because,
+
+Unknown Speaker  34:13  
+yeah, I have three formats handled already, and there's a new one now.
+
+Unknown Speaker  34:31  
+This again everything, because it's lack of information.
+
+Unknown Speaker  34:40  
+So I would say with This one, it would be like,
+
+Speaker 2  35:00  
+yeah, like, I like the I think the bottom one is the best thing for bullet points. But it still doesn't like it's, I wouldn't find this helpful. Like, if I was like, oh my, my color, my watercolor, or, I guess I would have to ask the specific color to get the information I want. But
+
+[interviewer-1]  35:35  
+So essentially, you want something that's the greatest specificity to the query being asked. Like, want to know more about the color is gray? Yeah?
+
+Speaker 2  35:45  
+So yeah, more knowledge base around. Like, even if we can't get provide, like, oh, 100% of your water is this color. It's this. More than likely you're this is the issue that you're having, but it's just you should still get your water tested, you know, health concerns. But the number one thing people come in is like, my water is this color? What does this mean? And I always have to tell them this or what you're done. So this question is going to be one of the most heavily utilized answer, or questions. So the answers are the knowledge source for this one has to be, like, a little bit more extensive in terms of the Colors. Should I put them and give feedback? Yeah? I
+
+Unknown Speaker  37:26  
+does provide a form,
+
+Speaker 2  37:35  
+and this would be Something like, I would add [community-based organization] thing like, coalition also
+
+Unknown Speaker  38:05  
+in general,
+
+Unknown Speaker  38:37  
+Yeah, I would revisit this One, definitely. I Hello. I
+
+Unknown Speaker  39:12  
+that aspect you were talking about, the [community-based organization]s perspective. Yeah,
+
+Speaker 2  39:26  
+and I only see it as certain, like, I think what you're saying is be impossible to have a perspective on everything. But I like thinking about it, like water testing, filtration, the things that we we normally do, like within our office, those are the things that we would have strong opinions on, and then everything else is, you know, left up to the world. So just keeping it within those, those those kind of frameworks, instead of trying to have an opinion on everything, is what I would, I would try to keep it to,
+
+Unknown Speaker  40:06  
+yeah, I would think that it is probably at the level of the frames,
+
+Unknown Speaker  40:16  
+like having an [community-based organization] frame. Yeah.
+
+Speaker 3  40:24  
+Might not, might or might not exist for some of the questions, yeah, so then
+
+[interviewer-1]  40:31  
+we just don't, we have it grayed out for some questions, and have it visible for some questions. Do? I
+
+Speaker 2  41:04  
+for would a, would a, do you think I know that we're gearing everything towards community, but would a researcher ever use something like this?
+
+[interviewer-1]  41:21  
+Currently, it is probably focused on the community member, but we can make a like an extended version of this as a researcher perspective about the data that they are interested in. Yeah, yes,
+
+Unknown Speaker  41:35  
+definitely. I
+
+Unknown Speaker  41:44  
+i read the visuals, I don't think we have any more.
+
+Speaker 5  41:54  
+The color of water visual reinforcements is messages.
+
+Speaker 3  42:23  
+For the slides, I think we are using more more details than we should, because you're using the entire width available, right? So you can probably fit in two or three
+
+[interviewer-1]  42:46  
+slides were selected. Yeah? When, when we go at the from cards to slides, we're saying that you just focus on one slide at a time, but just to have this non linear show, multiple, yeah, using the you will see those in modern interfaces a lot, right? LinkedIn, for example, it has that anything cell phone, because we making the best use of the vertical space and the horizontal space. You a
+
+[interviewer-1]  43:26  
+so the slides are more detailed version of the cards, right?
+
+Speaker 1  43:30  
+Simplified version of cards with more explanation. So here we're just citing the sources, quoting them and providing that information, but the slides explain the same concept in simpler terms. What is simpler? Simpler? Explain the technical words or terms in detail, essentially, it also organizes the content. For instance, here you can see the reason, the testing everything in one place, the help there's more like a sequential flow, which has incremental information provided as you go across the slide.
+
+Speaker 3  44:13  
+Click on any of these cards and let's go. Yeah. So how do I go to the slides? So there's no
+
+Speaker 2  44:32  
+sign here, right? The feedback that I would provide here is I
+
+Speaker 2  44:55  
+are, because if I'm going to click on what's being done to protect me and I don't, none of these cards have any other legislation.
+
+[interviewer-1]  45:15  
+This is really not feedback. This is asking questions because we are using feedback multiple ambiguous ways, right? One is feedback for the system. One is asking a question. So this is
+
+Speaker 3  45:33  
+asking the first that's good, not in the first 30 minutes,
+
+Speaker 1  45:55  
+because It's already recorded. It just had a problem displayed. Okay. Do
+
+Unknown Speaker  46:37  
+This is infant, different information.
+
+Speaker 6  46:41  
+Yeah, it shows the overview.
+
+[interviewer-1]  46:42  
+So while it's doing so the transition from the cards. So we have the, I'm just trying to make it clear in my mind. So you have to question the frames the cards and then the slides. Where do they come? How do I go to the looks good. Proceed. Yeah. So there is no direct transition from, yeah, that's what we need to solve.
+
+[interviewer-1]  47:30  
+I think you have this button because you're thinking of multiple car selections, right? It was more of
+
+Speaker 4  47:39  
+the initial flow that we thought of was kind of different. We interact with the AI interface more than the card, and these changes were pretty last minute,
+
+[interviewer-1]  47:51  
+but there is a nice hierarchical organization. We go from the question, the frames and questions, to the cards and then to the explanations, but we have to make sure that it's reflected.
+
+Speaker 3  48:19  
+Yeah, this is where I was saying, right? There's just too much space and maybe too verbose as well. So we have to make sure this is,
+
+[interviewer-1]  48:40  
+and this is the purple one that is selected. Yeah, you have to make the others more transparent. I don't know if it's clear on the screen, if it's a projector, but,
+
+Unknown Speaker  48:56  
+yeah, this is where a little more stuff
+
+[interviewer-1]  49:02  
+I would also think that, since we are going with the card metaphor, even for the slides, like I don't know one is, we can show it like four cards at a time and let them select which one. That might not be enough space. We have to reduce the content, yeah, we have to do some summarization. Probably. [community-leader], do you think these are two verbose like, it's too much to read. Should we summarize? I
+
+Speaker 2  49:44  
+i In my I'm like, this is it's a paragraph. This is not that big. But I know kids. I know kids, kids like, Oh, there's more than three sentences. I'm not reading it, or it's not bullet points. I'm not reading
+
+[interviewer-1]  50:00  
+it right? So this is like preferences. People will have individual preferences. Whenever we encounter individual preferences, we give the control like we have a more abstract version first, and we can always have a slider which has more details, yeah, because all of these have a heading, right? So those are themes. We can talk think about that themes, and maybe there are a couple of sentences for each of them, or bullet points.
+
+Speaker 2  50:31  
+I really like how this so this, this how it ended up with the learning copper rule. I like this
+
+[interviewer-1]  50:42  
+nitpicks here, right? So that color should be reflected here, purple one. Otherwise, you constantly remind yourself about the question, the card. I mean the question, the frame, what you're seeing not use, like purple font everywhere, but somewhere, maybe the border or maybe the heading, that could
+
+Unknown Speaker  51:02  
+probably be our solution for highlighting the jargons. Yes, we
+
+Speaker 3  51:09  
+can actually highlight the laws. Yes, yes, there needs to be some highlighting as well.
+
+Unknown Speaker  51:28  
+No fluoride in
+
+Speaker 4  51:33  
+here. This is all based on whatever data we could find that in the Ngdp border,
+
+Unknown Speaker  51:42  
+fluoride is gonna be a big one. Fluoride, chloride,
+
+Speaker 5  51:49  
+lead, and then I would say, I mean, well, PFAs, definitely. Then I think, night, maybe
+
+[interviewer-1]  52:03  
+we should organize it around those right? So the have a like a list up front, not alphabetical, which are the commonly look looked up ones
+
+Speaker 2  52:14  
+and then, yeah, because the thing is, is people are going to have questions, but then seeing the rest, they're gonna want to know about the rest, but they definitely alkalinity, alkalinity. It's a pH, which is pH, but I guess those, those sometimes get conflated, and I think those need to be definitely teased out. Then your lead and fluoride are going to be your two bigger other ones. And then I think it goes into, like, arsenic, copper, E coli. Be interesting, but I don't think people know about it, Mercury. And then, like, chloride, because people are starting to do more on like road salt contamination,
+
+Speaker 2  53:13  
+it's not say, I still it's not on here, but I have to explain often, like ppb, PPT, those things. And if we could do let me say I
+
+Unknown Speaker  53:45  
+want to see how It comes up. I
+
+Speaker 2  54:20  
+i Yeah, I think not phrasing these as questions would be helpful. I
+
+[interviewer-1]  55:13  
+[interviewer-2], the AI assistant, the one on the right, so I see a timeline of the questions that were clicked on, right? But now, if I want to have a conversation, let's say we change provide feedback to ask a question, so I start asking a question. It could be a random question that comes to my mind, or it could be related to some of the interactions I have had, right? Focusing
+
+Speaker 1  55:47  
+on a specific thing that will take the question itself, try to identify the topic and the frame on its own, depending on the user query, and
+
+[interviewer-1]  55:55  
+then, yeah, because that can be automated, right? So then my question is, why do we need the log? The log the log is more
+
+Speaker 4  56:05  
+of keeping in sync what is being displayed and what is shown there. So the message you see that pops up is like, okay, these are the things that I found. Would you like to provide a feedback? Or do you think it looks good and you want me to proceed
+
+[interviewer-1]  56:17  
+that I have adjusted the tone based on your feedback? Take a look. It's kind
+
+Unknown Speaker  56:25  
+of letting the user know, but usually it is not.
+
+[interviewer-1]  56:35  
+So I think you have it in a like a reverse chronological order, right the recent on top. Usually when we see something is written, they come towards the bottom right and there is a change, perceptible change, like something is you see what I mean. So,
+
+Unknown Speaker  56:58  
+that thing that I implemented, that so when you
+
+Unknown Speaker  57:01  
+buy what okay, it is on top, recent on top, closer
+
+[interviewer-1]  57:14  
+to the buttons. So currently just looking at lead, oh yeah. Then we need a way to because then I have to look constantly. Look at the time I thought it's 128 so that's what I thought. Sorry, one very funny. You see what I mean? So we need to [community-leader]. Did you see my point? Sorry, to distract you. No, happen the AI assistant on the right. So I was confused if the recent message is on top or at the bottom. It so happens it is on the bottom, but it mentions the time on the clock. And I thought it is 128 now, so I thought the recent is, yeah, it should be on the bottom. That's fine, but we need a better way to I think we can
+
+Speaker 1  57:56  
+use what GPT does. It hides all the previous message to access it, you have to scroll only,
+
+[interviewer-1]  58:03  
+yeah, or so, two or three at a time, or something like that. We don't need to see everything. I like the idea, but just a small change. I
+
+Speaker 2  58:35  
+I'm like so for this section, I guess my
+
+Speaker 2  58:51  
+like, I would like something about Flint and [city] in this on This section, like, what? That's what I'm trying to think is that if my if the question is, like, why is this contamination getting into my water in the first place? Like, it says, you know, has all of these things. But I think two case studies that are worth adding in this is [city] and Flint being as like, also, I guess the human, the human factor of this.
+
+[interviewer-1]  59:34  
+Also, [interviewer-2], could you talk a little bit about the uncertainty and information? Because this is directly
+
+Speaker 1  59:41  
+related, yes. So one of the things that we're considering is when we present the information, we want to talk about uncertainty of the information that is provided. For instance, when we're when we summarize the most recent test results, most of the results show that water is safe. Yeah, when it's when lead testing is done, but we've also heard about instances where there were certain hits, like certain houses or apartments showed presence of lead. So instead of seeing based on these results, that your water is safe, we want to present it as your water is most likely see, because most of the regions shoot this output, but still, you need to get it tested.
+
+Speaker 2  1:00:25  
+Yeah, that's what I thought. Yeah, that's what I tell people. And then I guess, because we're going to eventually get to that point where we can show test results and things like that, right?
+
+[interviewer-1]  1:00:37  
+Yes, yes. And there's some examples you will see, right? We do have those visuals.
+
+Speaker 1  1:00:43  
+We don't have the visual integrated yet, but the numbers that we will show is based on ngtps.
+
+[interviewer-1]  1:00:50  
+But for next week, you should have those integrated. We're working on that. So just to touch upon the point that [interviewer-2] mentioned about uncertainty, we discussed this yesterday, right? So there's kind of two aspects of uncertainty. One is that directly comes from the data, like the ranges and stuff. The other part is the impact uncertainty, like the cause, like, why is this getting so there could be different reasons, right? Where those reasons can come from different sources, yeah, how does this contamination affect my health? Again, there is some uncertainty about the degree to which I will be impacted based on my there's essentially there are nuances so which directly affects and you will probably see some examples about the tonality that we use, because we cannot make people paranoid about Yeah, things, right? Very, very true. So yeah. So we are trying to kind of tease apart those dimensions, like I wrote here, right? So information, uncertainty, what I'm talking about, specificity, what you touched upon, right? So if I have a specific question about watercolor, black or gray, then I want some response related to that credibility we talked about in the tonality and complexity is, like, how we are communicating that tonality, I think, is a relationship with,
+
+Speaker 2  1:02:12  
+yeah, it gets it's super hard because it's like, you know, I know it's not going to be able to go to the nuance degree that, like, for example, the Water Watch website is based off of the dep's testing parameters. So it's all about first tier, second tier, third tier sampling. So if you as a city, you should be sampling equal amounts from every tier. But if I know that all my first tier samples are going to be contaminated, I'm not going to test, I'm gonna be like, Oh, we can. And this is what the city did during the lawsuit. We didn't have enough samples to do first tier, and that's why we had to go to second and third tier, which are less likely to have lead. The other thing is, is, I know there's a difference between sequential testing and then first and fifth liter testing, which the city did. So with sequential testing, you're able to find where your contaminant is coming from, whether it's the quarter line or the home house line, but they don't want to do those tests. They'll just do first and fifth liter because it's a simpler test, and it's like, you know you're not gonna so I know that there's, there's, but we don't need to tell everybody that that's not everybody's gonna care about that. But what I want is just, I want to be able to present people with the most information, yeah. And also that's, that's really where it comes down, yeah? And let them form their own opinion.
+
+[interviewer-1]  1:03:41  
+And this is also where the card, where it says the [community-based organization] perspective, that will be really handy.
+
+Speaker 2  1:03:46  
+And I, the more I think about I think that's the difference is, like, really helping people to understand that this is a tool and not like, truth teller, yeah. And I think that's what I think people see most AI models as like, Oh, this is, this is Google. This is God. This is the like, you know
+
+[interviewer-1]  1:04:06  
+that is, that is cutting across occupations, communities and any disciplines. I think, as humans, we have this over reliance issue where we are lazy, human, lazy, right? Yeah, so we are thinking that, Oh, we have outsourced our thinking to another machine which is trained to do so.
+
+Speaker 2  1:04:26  
+So I think in the design of this is, if we can, this is, this is a different kind of thing, but if we can help people to think critically, through the cards, and
+
+[interviewer-1]  1:04:44  
+it's not a different issue. It's definitely an abiding kind of theme in this that we I mean when we write the paper, we also have to say that this is not like just summarizing a knowledge base and telling people what to do, I actually wrote down questions. So one of the questions we wanted to ask about, which we are actually discussing now, is, what is your impression of the nuanced Information Communication, instead of a right or wrong way to do things? That's what my exact words are. So that's that's exactly what you agree with, right from what you're saying. So this is the right way to approach it, and
+
+Speaker 2  1:05:22  
+it's so hard because it's like, just just talking out, like my perspective is like, I know all this other shit, but people don't care about that. But people just will automatically assume and give him. Oh, [community-leader] knows what he's talking about, so whatever he's saying is correct. But the reality is, is like, I understand water chemistry to the point where it's like, there's a lot, there's a lot that goes into it. So for me, it's like, I don't ever want to position [community-based org] as like, the final arbitrator on what good information is, but at least, like, people need to be thinking about certain things and presenting it or present hopefully, we can present this information in such a way where it's like, okay, but they're, you know, they're giving me all sides to the to the picture, so that I can form my own opinion and then just Use this as a tool, and so really trying to be thoughtful in that way. And I know that I think, you know, even seeing it in this design is like, I know whatever we do on the back end, once you throw the people into the mix, it's going to take on a whole nother Avenue. But I think that at least having the guideposts is what's gonna create the best output. And then I think, but what I've found now is what creates the best guideposts is having a good enough framework where you can present people multiple perspectives so they can draw their own conclusion,
+
+[interviewer-1]  1:06:59  
+which is what people are always afraid to do, like draw their own conclusions. People will have someone tell tell them the what the conclusion is, which is what we face during the pandemic as well, right? And I just figured that both community leaders we're talking about, they have the same first name [community-leader], because if you could clone [community-leader] Fauci at that point of time in every household, they would get the nuanced information they would need at that point of time. But it was also not scalable for him, because things would get lost in translation through social media, through mainstream media, and what we would get, it would be a version of it. So how many of us would actually listen to his own print press conference, probably less than 1% that's the same thing for you as well, right? So, because it's a scalability problem, people who know have this have this knowledge and know where to look, and this is what we are trying to embed in, in the knowledge base and in the way the llms are
+
+Speaker 2  1:08:00  
+I have a huge healthy fear of all of this. And I think people, at least on the corporate world, don't, it's not their motives are different, so it's more money and profit. So they're looking at it as like they don't, you know, they're not going to spend time over the nuances that we're spending time over, but because it's community. But I think that's also what allows us to have the longevity that it has. More people are going to use it, because this is an actual human tool created by us, instead of like a turn out money, turn out data, turn out more points.
+
+[interviewer-1]  1:08:36  
+I think you make a very critical point is how to incentivize reasoning or critical thinking? Yeah, in the corporate higher ups, people who are higher ups would actually invest their time they triage which which piece of information needs my time to if the thing it's a critical point where the companies incurring losses over the past one month period unexpectedly with some product, they will spend 24 by seven critically thinking about it. So it all depends on what is the incentive. There's a different set of incentives for a corporate leader, the different set of incentives for a community leader and community members, so we have to incentivize this in a way that directly affects their own future and their health. Water is tricky, because it's probably the direct impact you don't realize it is more longer term food when we eat like we have a very direct impact in a few hours. So probably it is easier to convince people about food. Also, there are parameters you can show, right? So it is easier to probably incentivize, but that's what we that's what this tool should do, incentivize reasoning where the ultimately the decision. There are technical terms for this, essentially, loosely translated it. It's a high consequence decision making scenario where if you make a wrong decision, then things can go wrong. But even there, the emotion comes into play that you don't want to make people paranoid, right? Yeah? So yeah, the different set of incentives. But if you incentivize people the right way, people will care? Yeah, I think right now, the thing is, it is lopsided, right? So if a corporate leader cares in the information, there is an army of people there to help them. Now we're talking about people who don't have the resources, or traditionally, we haven't built the resources from a data driven perspective. So how do we actually show this as an exemplar system? Maybe corporates of the future will see a way to make money and care about what we're doing. So yeah,
+
+Unknown Speaker  1:10:59  
+was there anything else around?
+
+[interviewer-1]  1:11:01  
+Just keep I want you to look at some of the visuals that we have.
+
+Unknown Speaker  1:11:10  
+You do have anything integrated? Yeah, we can. How much time do you have?
+
+[interviewer-1]  1:11:22  
+[community-leader], I another. So essentially, I wanted to get a sense of these six questions. I think the thing which we talked about is number two, also probably three, which touched upon but one, four or five and six we need to talk about. So we listed a few questions we wanted to touch upon.
+
+Speaker 2  1:11:47  
+[community-leader] can so this is the infographic the
+
+Unknown Speaker  1:11:51  
+LLM selects it based on the information
+
+[interviewer-1]  1:11:57  
+that it shortlisted. Could you give him some examples of the tonality aspect.
+
+Speaker 1  1:12:06  
+Can see the difference based on the different questions, how the message itself is presented in the final slides. But I still need more work on that,
+
+[interviewer-1]  1:12:17  
+no at a high level, right? So what? What do we mean? So this is so at this point of time, we have images extracted from other sources, but what we're also doing is generate some charts from the data which is not yet integrated, which should be done by next week. So along
+
+Speaker 4  1:12:38  
+with the explanation of what the figure is showing. It shows this and then refers to the diagram itself. I
+
+Unknown Speaker  1:13:13  
+would it possibly possible to do videos in there too
+
+[interviewer-1]  1:13:18  
+eventually, yes, but probably for not, not for this, this version, yes, eventually videos.
+
+Speaker 2  1:13:28  
+How do you feel about all this? I think there anything that popped into your mind when I first asked you that question? I
+
+Speaker 1  1:13:47  
+as as a whole, the tool does seem useful because I've honestly learned a lot about the water and what I should be concerned about good, and it will actually be great to have people think about it that way, because it is affecting them. Like you said, it is affecting them. It's just not immediate, so they don't care about I do really want to work on the presentation itself. So like this, figure on its own already explains everything. The text should be an alternative. If you don't understand from the figure, then you go into the text to get
+
+Unknown Speaker  1:14:26  
+into the details so generally, or a video,
+
+Speaker 1  1:14:28  
+eventually, video eventually, getting more of these infographics to explain almost every question would be more useful, like the water question that you had. That is something that we are concerned about as well, but we're just confused what's happening. And we let it run for a few minutes, and then it gets back to normal, and we use it. But if there's like infographics showing Okay, something like this, a brown sheet, this means your water could have XYZ. Like I read that it could be because of iron rusted pipelines. It could be because of copper leaching into the water also, I think, and why hot water is not recommended, because lead gets dissolved and can get into the blood. Same thing about PFAs. I also learned that it depends on how much you stay hydrated for how long it takes for your body to flush out PFAs from your system. So all of that information seems very relevant. We just need to find, like, a very engaging, concise, detailed, enough way for people to get an understanding of and trigger them to dig deeper. So yeah, that's something I really want to work on. Cool.
+
+Speaker 6  1:15:45  
+Okay, any questions, yes,
+
+Speaker 1  1:16:00  
+what are your impressions on how the message is being presented, as in the tonality of The message? So if you can see like the So,
+
+Speaker 7  1:16:20  
+I should have saved different portions, I think, because it changes.
+
+[interviewer-1]  1:16:31  
+So even if you don't show examples like, could you give some examples about what are the different types of tonalities we are considering?
+
+Unknown Speaker  1:16:41  
+Whatever the most aggressive is
+
+Speaker 1  1:16:47  
+aggressive for a specific frame that we're talking about. So if we're looking at
+
+[interviewer-1]  1:16:53  
+so sorry to interrupt. So there is a relationship between the frame of information and the tonality that would apply to all the questions related to that frame, I think that's yes,
+
+Speaker 1  1:17:02  
+that's that's a high level message. So if we're talking about it from a health frame, we don't want people to panic Yes, we see this is a problem. We understand this exists, but you don't need to freak out immediately. You can get it tested, and these are the measures that you can take. But when it comes to policies, is these regulations are in place, but we see these problems, so you should reach out to authorities, ask questions, get it tested, and take measures, because it's directly impacting so those Are some of the tonalities that we're experimenting with. I
+
+Speaker 2  1:17:44  
+I think I'm fine with it, because [community-based org] will have its own, like, tart or something. So like, we would have our own tonality, correct,
+
+Unknown Speaker  1:17:58  
+yeah? A different thing will have
+
+[interviewer-1]  1:18:00  
+their own, yeah, but you can also give feedback on the like, you can you can make it, I mean, that's the entire point of using an AI assistant on the side. Like, make it more well, make it friendlier, make it less negative, or something like that.
+
+Speaker 2  1:18:14  
+I think what I what I like about it so far, is the objective nature of it, because I'm not choosing it. If I was choosing, there would definitely be different tones on all of this. But I think the fact that I'm not choosing is what I like about, yes, but about what is currently set and how it is currently framed. And then the other thing I know is that in us choosing our own frame, then we'll be able to imbue whatever you want in that. And then I think having all of it together is what makes me like it, right?
+
+[interviewer-1]  1:18:49  
+Yeah, I understand what you're saying, but I would also think that where your interventions might be useful that is still open, right? Maybe we will see that if you control the tonality that because ultimately, what does it affect on the community members? Side one is in number one is engagement. Yeah. So we want to maximize engagement. And as a community leader or volunteer like side you all have, you know, all the knowledge about how to get people engaged. I believe that this information delivery, like the nuances that we talked about, we want to make people care. Tonality is one aspect. I think we can afford to have experiment with community leaders. Feedback won't make the information more subjective. The information remains the same. It's just how is how it is delivered. It tries to essentially get into people's head, grow to get the more engaged, to care more so, yeah, maybe there's a case for interaction there. I think
+
+Speaker 2  1:19:58  
+the then, I would say for health would be the one where not, I know that it's not freak out, but similarly to the
+
+Speaker 2  1:20:15  
+like, There should be a mobilization there to lifestyle change that like that should be the tone. It's like, there's, there's things that you can do for you towards your health and your lifestyle to change, and that that's a different tonality, yeah?
+
+Speaker 3  1:20:35  
+And then that is the incentivization that, right? So that is, yeah, yes.
+
+Speaker 2  1:20:40  
+And then, when I was thinking originally, is, was the what is being done to protect me? I think where I first was going to say, or what I first was going to say before I was like, Oh, well, [community-based organization] is going to have its own card. Is that, including in reaching out to your health departments, that there have been community based solutions as well, and that sometimes reaching out to your community groups are as helpful as reaching out to your health departments. You know, for like, say you want to change a law, or if you there's something that isn't being done. If you see a gap, there are things outside of current institutions that can help you. And I think having the giving people enough space to include things like, you know, letter writing campaigns or phone banking, I would like to push people in a little bit more on that. I just want to push people to action. I think the first action is changing their relationship to how they see all of those things. So that's like the first tone, and then this, the subsequent tone of the relationship change is like, Okay, now you need to, there's, there's, you should be doing something different, and how that's done in each frame, I think is a little different, but that's that would be my overarching goal. And then kind of what the the tone of the [community-based organization] will always be like, I don't want to say the most crazy, but like, the most out of the box, the most like these, knowing what we know, after seven years of doing this, this is the pain. This is why we
+
+Unknown Speaker  1:22:28  
+most personalized,
+
+Speaker 2  1:22:30  
+probably most personalized like which
+
+[interviewer-1]  1:22:33  
+is hard to automate. Yeah, exactly, but, but we can learn from the, you know, eventually, we can learn from the how the communication is done by [community-based organization], and try to emulate that, but in the course of time, because this is still within the first year.
+
+Speaker 2  1:22:53  
+No, I mean, this is to me, we're way further than a lot of people like this is crazy. Thank you. I'm like, What are y'all doing?
+
+[interviewer-1]  1:23:12  
+Yeah, I think what I like about this is we are not assuming that a data set exists. We are not assuming that we are not making any assumptions about why people would care about the data, how this is going to be used. We are actually working on the entire pipeline, right from the data collection to curation, involving people in a nuanced way. Like, it's not like people are people right. Community leaders and volunteers, they have a different stake. Community members have a different stake. And there's an entire thought process behind building this, this, this pipeline, which is not like taking something and then applying it, this is, this is,
+
+Speaker 2  1:23:53  
+and then the data set just really makes it even more. Yeah. Like, legit,
+
+
+Speaker 1  1:24:28  
+knowing how this tool would impact your relationship as an [community-based organization] relationship with the community members.
+
+Speaker 2  1:24:38  
+I This is so the first I really couldn't conceptualize the impact until the last meeting, and then when y'all showed me all this, I was like, oh, man, this is, like, there's, there's a lot of things. And this is gonna be a long winded answer, but I just, I want to give you your flowers in this answer as well. Is that, you know, there's a lot of things that we have done that have been ahead of the organization's time in a lot of ways. And even being a part of the CDC Museum in Atlanta, and we had, like, a whole exhibit or wall around the [community-based org], I was like, All right, we're really part of history. But seeing this model developed, I was like, Oh no, this is historic, and the reason why I feel like it's so historic is that it's it's at a time where, usually community and academia and probably most genres or most demographics, we're never on the same timeline. We're never on the same we're always behind research, or we're ahead of research, but we're never usually so in sync. So then this grant comes out of time where it's like, oh, AI is hitting. I know what we can do with this. And then we're also doing the data collection. So all three things have put us on the same timeline. We're like, we're gonna have we have some we have a product, or we have something that's applicable to community now, because it's done in the format where everyone is trying to use AI and communicate in this fashion, but nobody really has community ownership of it, because they don't really work with the people who can build these things for them that aren't coming from it for a for well for profit perspective, but more of a inquisitive research perspective, so the final result of what we're creating becomes this larger than life tool that can be shown to have all of these other different applications, and it's happening in real time, because now we're trying to do it with [person] and the tree model. So it started out as this one thing, then it becomes this bigger umbrella of community, AI and how that we can teach other organizations and groups how to create something like this that's designed specifically for their communities has this ripple effect of like, you can't say it can't be done because we're doing it, and then because we're doing it and we're the [community-based org], then what's the excuse for other larger community organizations not to have a very hyper specific AI model or language model based off what they're experts on? So now what we're doing is, you know, and I've always been one, like you hear these phrases of like decolonize education and schooling and all. And what does that mean? But then when you're looking at something like this, it's like it means something like this. It means making knowledge accessible to everyone, but also being in the driver's seat of how that knowledge is accessible
+
+Speaker 3  1:28:02  
+to everyone and usable, usable, and
+
+Speaker 2  1:28:05  
+having the data points to back up the things that we're saying, because we're not just talking out of our ass, we're like, actually doing the research on it. So for me, what this shows is like, again, maybe we the hope, the hope is that we get all of the accolades that are deserved to you and you and Neil and to this whole cohort, that we all get the accolades that we deserve, we all get the prominence and research and the pats on the back that we deserve. But so oftentimes being ahead, people don't see the use for it until so much later. But I think, and I feel right now, is that we're seeing the use for it in real time. We're developing it in real time, and so that we can show others how to do this and do it in a way with a without which with way more integrity than what's being done, which is like the other side is just throw loads of money, buy up all this information, buy up all of these data points that may or may not have any significance, and then push out a product that looks cool for people to consume, like that. That, to me, is the other side of it, but what we're doing is so so timely and so hitting and so historic, and has all of these outside. You know, I was talking to [community-volunteer], and I'm like, You need to make sure that you're all in on this program. You know, I'm talking to [person], and just like to schedule a meeting. Just having all of these other tangible and intangible outputs and outcomes from this is like, I feel it, you know, I really, really feel it in it. A lot of it was based off of the last meeting coming and seeing this coming out of last meeting, I was like, there's no one else doing this, and why? And for a community group of our size, with the [community-based organization], to have something like this shows everyone else, and I'm always looking at it as a community organizer standpoint. It's like I stand on the shoulders of giants. I stand on like the Young Lords and the Black Panthers and all these political people that stood before me. But now going forward, people can stand on the shoulders of the [community-based org]. If this is the baseline, if this is where other organizers start out, think about what other possibilities and where they can take this, and that's kind of where, like my head lives at, like in the future, but also being present, which is, like, you know, very, very difficult for me, but I am, I believe in this project more than, like most of the other things, I just wish We were rich and didn't have to suffer, but so that's the long answer. Actually, that's how I feel. Yeah, that's a
+
+Transcribed by https://otter.ai
